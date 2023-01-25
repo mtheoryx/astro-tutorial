@@ -1,6 +1,7 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Second Garden Seed
-author: Astro Learner
+author: David Poindexter
 description: "After learning some Astro, I couldn't stop!"
 image:
   url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"

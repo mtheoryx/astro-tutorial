@@ -1,17 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "My First Garden Seed"
-pubDate: 2023-01-24
+pubDate: 2023-01-23
 description: "This is the first garden seed of my new Astro garden."
-author: "Astro Learner"
+author: "David Poindexter"
 image:
   url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
   alt: "The Astro logo with the word One."
 tags: ["astro", "gardening", "learning in public"]
 ---
-
-# My First Garden Seed
-
-Published on: 2023-01-24
 
 Welcome to my _new garden_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
