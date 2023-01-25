@@ -1,15 +1,14 @@
 ---
 import '../styles/global.css'
 import BaseLayout from '../layouts/BaseLayout.astro'
-
+import BlogPost from '../components/BlogPost.astro'
+const allPosts = await Astro.glob('../pages/garden/*.md')
 const pageTitle = "Digital Garden"
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<h2>... and my new Astro Digital Garden!</h2>
 
 	<ul>
-		<li><a href="/garden/seed-1">Seed 1</a></li>
-		<li><a href="/garden/seed-2">Seed 2</a></li>
-		<li><a href="/garden/seed-3">Seed 3</a></li>
+		{allPosts.map((post) => <BlogPost title={post.frontmatter.title} url={post.url}/>)}
 	</ul>
 </BaseLayout>
